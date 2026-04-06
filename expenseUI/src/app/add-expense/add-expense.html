@@ -1,0 +1,8 @@
+<h2>Add Expense</h2>
+
+<input [(ngModel)]="expense.title" placeholder="Title">
+<input [(ngModel)]="expense.amount" type="number" placeholder="Amount">
+<input [(ngModel)]="expense.category" placeholder="Category">
+<input [(ngModel)]="expense.date" type="date">
+
+<button (click)="add()">Add</button>
