@@ -12,7 +12,7 @@ using Team_Project_Check.Data;
 namespace Team_Project_Check.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260406162739_InitialCreate")]
+    [Migration("20260406172355_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
